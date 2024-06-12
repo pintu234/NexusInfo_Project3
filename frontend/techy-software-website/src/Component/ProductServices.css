@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .p1 {
+    width: 100vw;
+    height: 100vh;
+    animation: slideIn 1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+  }
+  .info2 {
+    font-style: oblique;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    transition: transform 0.5s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+  }
+  .mm {
+    overflow: none;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    transition: transform 0.5s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  @media (min-width: 576px) {
+    .p1 {
+      height: 50vh;
+    }
+  
+    .info2 {
+      font-size: 16px;
+    }
+  
+    .mm {
+      max-width: calc(50% - 20px);
+      flex: 2;
+    }
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  

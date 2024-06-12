@@ -1,0 +1,122 @@
+.ab1 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+    transition: transform 0.9s ease-in-out, opacity 0.1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+    float: right;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .ab2 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+    transition: transform 0.9s ease-in-out, opacity 0.1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .ab3 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+    transition: transform 0.9s ease-in-out, opacity 0.1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+    float: right;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .ab4 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+    transition: transform 0.9s ease-in-out, opacity 0.1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .info1 {
+    font-style: oblique;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+  }
+  .ab {
+    width: 100vw;
+    height: auto;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out, slideInLeft 0.5s ease-in-out;
+  }
+  i {
+    font-size: large;
+  }
+  .cd {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .cd {
+      justify-content: center;
+    }
+    .ab1,
+    .ab2,
+    .ab3,
+    .ab4 {
+      width: 100%;
+      float: none;
+    }
+  }
+  @media (max-width: 768px) {
+    info1 {
+      font-size: large;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  

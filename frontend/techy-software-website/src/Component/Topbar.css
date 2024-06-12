@@ -1,0 +1,45 @@
+.topbar {
+    width: 100vw;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 7%;
+    background: #26425a;
+  }
+  .navbar-logo {
+    text-decoration: none;
+    color: #d2dce6;
+    font-size: larger;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .nav {
+    font-size: larger;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    font-weight: 400;
+    font-variant: small-caps;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    color: #d2dce6;
+    transition: color 0.5s ease-in-out;
+  }
+  a:hover {
+    color: #f95f17;
+  }
+  @media (max-width: 768px) {
+    .topbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav {
+      margin-top: 15px;
+    }
+  }
+  
